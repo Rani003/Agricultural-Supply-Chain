@@ -1,25 +1,27 @@
-How to Run
+# How to Run
 
-Buka 2 terminal
-# Terminal 1 (Backend)
+1. Buka 2 terminal
+2. Terminal 1 (Backend)
 ```html
 cd agricultural-supply-chain/backend
 npm init -y
 npm install express cors body-parser uuid
 npm start
 ```
-# Terminal 2 (Frontend)
+3. Terminal 2 (Frontend)
 ```html
 cd ../frontend
 npx create-react-app .
 npm install axios
 npm start
 ```
-# Akses Backend
+4. Akses Backend
 ```html
-HTTP://localhost:5000
+http://localhost:5000
+http://localhost:5000/debug/farmers
+http://localhost:5000/debug/products
 ```
-# Akses Frontend
+5. Akses Frontend
 ```html
-HTTP://localhost:3000
+http://localhost:3000
 ```
