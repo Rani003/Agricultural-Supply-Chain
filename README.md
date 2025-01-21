@@ -1,13 +1,21 @@
 How to Run
 
-# Buka 2 terminal
+Buka 2 terminal
 # Terminal 1
 ```html
-<pre>
-  <code>
-    echo "Hello, World!"
-  </code>
-  <button onclick="navigator.clipboard.writeText('echo \"Hello, World!\"')">
-    Copy
-  </button>
-</pre>
+cd backend/
+npm start
+```
+# Terminal 2
+```html
+cd frontend/
+npm start
+```
+# Akses Backend
+```html
+HTTP://localhost:5000
+```
+# Akses Frontend
+```html
+HTTP://localhost:3000
+```
